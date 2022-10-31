@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1654006582",
+        "python_version": "3.7.12 | packaged by conda-forge | (default, Oct 26 2021, 05:59:23) \n[Clang 11.1.0 ]",
+        "command_line_arguments": "/Users/lynn/Unity Projects/Underwater Game/venv/bin/mlagents-learn",
+        "mlagents_version": "0.28.0",
+        "mlagents_envs_version": "0.28.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1",
+        "numpy_version": "1.21.6",
+        "end_time_seconds": "1654006596"
+    },
+    "total": 14.358425874999998,
+    "count": 1,
+    "self": 0.004335499999996273,
+    "children": {
+        "run_training.setup": {
+            "total": 0.015534625000000801,
+            "count": 1,
+            "self": 0.015534625000000801
+        },
+        "TrainerController.start_learning": {
+            "total": 14.338555750000001,
+            "count": 1,
+            "self": 0.0004601660000034258,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 14.338083166999997,
+                    "count": 1,
+                    "self": 14.338083166999997
+                },
+                "trainer_threads": {
+                    "total": 1.0420000009503383e-06,
+                    "count": 1,
+                    "self": 1.0420000009503383e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 1.1374999999702595e-05,
+                    "count": 1,
+                    "self": 1.1374999999702595e-05
+                }
+            }
+        }
+    }
+}
